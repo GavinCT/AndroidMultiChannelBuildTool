@@ -1,5 +1,3 @@
-wiz
-debug
 samsungapps
 hiapk
 anzhi
