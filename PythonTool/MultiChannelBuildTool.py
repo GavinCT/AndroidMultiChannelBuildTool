@@ -23,12 +23,13 @@ lines = f.readlines()
 f.close()
 
 for src_apk in src_apks:
-    #file name (with extension)
+    # file name (with extension)
     src_apk_file_name = os.path.basename(src_apk)
+    # 分割文件名与后缀
     temp_list = os.path.splitext(file)
     # name without extension
     src_apk_name = temp_list[0]
-    # 有.   : .apk 
+    # 后缀名，包含.   例如: ".apk "
     src_apk_extension = temp_list[1]
     
     # 创建生成目录,与文件名相关
