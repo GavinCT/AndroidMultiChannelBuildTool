@@ -8,6 +8,8 @@ AndroidMultiChannelBuildTool
 安装个Python环境，双击一下MultiChannelBuildTool.py，谁都可以打包了！
 # 目录介绍及使用注意
 ## PythonTool
+Python2 与 Python3 都能正常使用 
+
 - info目录下的channel用来存放渠道，多个渠道之间用换行隔开。
 - MultiChannelBuildTool.py是多渠道打包的脚本。
 
