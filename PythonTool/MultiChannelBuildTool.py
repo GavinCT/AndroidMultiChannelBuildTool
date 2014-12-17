@@ -1,3 +1,4 @@
+# coding=utf-8
 import zipfile
 import shutil
 import os
@@ -26,7 +27,7 @@ for src_apk in src_apks:
     # file name (with extension)
     src_apk_file_name = os.path.basename(src_apk)
     # 分割文件名与后缀
-    temp_list = os.path.splitext(file)
+    temp_list = os.path.splitext(src_apk_file_name)
     # name without extension
     src_apk_name = temp_list[0]
     # 后缀名，包含.   例如: ".apk "
