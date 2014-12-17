@@ -11,7 +11,8 @@ f.close()
 
 # 获取当前目录中所有的apk源包
 src_apks = []
-for file in os.listdir():
+# python3 : os.listdir()即可，这里使用兼容Python2的os.listdir('.')
+for file in os.listdir('.'):
     if os.path.isfile(file):
         extension = os.path.splitext(file)[1][1:]
         if extension in 'apk':
