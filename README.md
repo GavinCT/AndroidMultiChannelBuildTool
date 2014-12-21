@@ -17,6 +17,12 @@ Python2 与 Python3 都能正常使用
 ChannelUtil.java 用来解析渠道，直接拷贝到Android工程中使用即可。  
 ChannelUtil中的getChannel方法可以方便的获取渠道。 
 
+# 常见问题答疑 
+
+这部分问题是由美团大神<a href="http://weibo.com/coderdd" target="_blank" >丁志虎</a>在微博上答复的，摘录如下：
+
+- 这个方案没法解决不同渠道使用渠道自己SDK的问题，友盟的SDK提供了在代码中设置渠道的方式，所以再获取到渠道号后再调用SDK相关设置渠道的方法就可以了
+- apk用的是java那一套签名，放在META-INF文件夹里的文件原则上是不参与签名的。如果Google修改了apk的签名规则，这一套可能就不适用了。
 
 # License
 
