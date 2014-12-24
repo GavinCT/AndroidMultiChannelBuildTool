@@ -10,7 +10,11 @@ AndroidMultiChannelBuildTool
 ## PythonTool
 Python2 与 Python3 都能正常使用 
 
-- info目录下的channel用来存放渠道，多个渠道之间用换行隔开。
+- info目录下的channel用来存放渠道，多个渠道之间用换行隔开。  
+  注意：  
+  fork后通过Github clone，这个channel文件在Windows端是正常的，以换行隔开。  
+  直接点击右侧的download下载zip，可能你在windows端看到的就不是以换行隔开的。  
+  这是Github造成的。
 - MultiChannelBuildTool.py是多渠道打包的脚本。
 
 ## JavaUtil
