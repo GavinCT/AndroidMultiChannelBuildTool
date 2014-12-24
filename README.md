@@ -12,9 +12,35 @@ Python2 与 Python3 都能正常使用
 
 - info目录下的channel用来存放渠道，多个渠道之间用换行隔开。  
   注意：  
-  fork后通过Github clone，这个channel文件在Windows端是正常的，以换行隔开。  
-  直接点击右侧的download下载zip，可能你在windows端看到的就不是以换行隔开的。  
-  这是Github造成的。
+  fork后通过Github clone，这个channel文件在Windows端是正常的，以换行隔开（`\r\n`)。  
+  直接点击右侧的download下载zip，可能你在windows端看到的就不是以换行隔开的（`\n`)。  
+  这是Github造成的。但不会影响程序最后的运行效果。   
+  你可以粘贴下面的渠道到channel.txt中保持它在windows端的可读性。
+
+  ```
+  samsungapps
+  hiapk
+  anzhi
+  360cn
+  xiaomi
+  myapp
+  91com
+  gfan
+  appchina
+  nduoa
+  3gcn
+  mumayi
+  10086com
+  wostore
+  189store
+  lenovomm
+  hicloud
+  meizu
+  baidu
+  googleplay
+  wandou
+  ```
+  也可以自己来写入自己需要的市场，并以换行隔开
 - MultiChannelBuildTool.py是多渠道打包的脚本。
 
 ## JavaUtil
