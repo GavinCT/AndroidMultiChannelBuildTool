@@ -1,4 +1,4 @@
-﻿package com.czt.util;
+package com.czt.util;
 
 import java.io.IOException;
 import java.util.Enumeration;
