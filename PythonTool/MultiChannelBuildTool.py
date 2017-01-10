@@ -3,6 +3,11 @@
 import zipfile
 import shutil
 import os
+import sys
+
+# 解决相对路径问题
+path = os.path.dirname(sys.argv[0])
+os.chdir(path)
 
 # 空文件 便于写入此空文件到apk包中作为channel文件
 src_empty_file = 'info/czt.txt'
