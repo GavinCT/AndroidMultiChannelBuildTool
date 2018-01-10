@@ -1,13 +1,11 @@
 AndroidMultiChannelBuildTool
 ============================
 
-安卓多渠道打包工具。  
+安卓多渠道打包工具。   
 实现思路讲解： [Android批量打包提速 - GavinCT](http://www.cnblogs.com/ct2011/p/4152323.html)  
 
 使用本工具，Android程序员仅需将ChannelUtil.java放入到工程里使用，以后打包的事情就不用自己动手了。  
 安装个Python环境，运行一下MultiChannelBuildTool.py，谁都可以打包了！
-# 写在最前面
-本工具不支持v2签名，如有需要，请使用[Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
 # 具体使用步骤
 将想要批量打包的apk文件拷贝到PythonTool目录下（与py同级），运行py脚本即可打包完成。（生成的渠道apk包在output_** 目录下）
 # 目录介绍及使用注意
